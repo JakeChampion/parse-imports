@@ -39,7 +39,6 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "scripts": {
-    "prepare": "tomer install",
     "format": "tomer format",
     "lint": "tomer lint",
     "typecheck": "tomer typecheck",

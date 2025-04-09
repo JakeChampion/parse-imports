@@ -14,7 +14,7 @@ const parseNamedImports = (importClauseString, i) => {
         const components = namedImport.split(` `)
         return {
           specifier: components[0],
-          binding: components.at(-1),
+          binding: components[components.length -1],
         }
       }
       return { specifier: namedImport, binding: namedImport }
